@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index.HTML</title>
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main {
+            width: 30vw;
+            height: 40vh;
+            margin:auto;
+            border:2px solid black;
+            border-radius: 5px;
+            padding:1rem;
+        }
+        input{
+            padding:.5rem .8rem;
+            font-size: 1.2rem;
+        }
+        button {
+            padding:1rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <br>
+        <h1>Github API</h1>
+        <hr>
+        <br>
+        <form action="/" method="post">
+            <h3>Enter Your Github Username:</h3>
+            <input type="text" name="username" />
+            <br>
+            <br>
+            <hr>
+            <br>
+            <button>Get User Data</button>
+        </form>
+    </main>
+</body>
+</html>
